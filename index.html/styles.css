@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: salmon;
+}
+
+#container{
+     width:500px;
+     display: flex;
+     flex-direction: column;
+     gap:20px;
+     padding: 20px;
+     background-color: lightpink;
+     border-radius: 10px;
+
+}
+
+#flexlast{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+
+#remain{
+    color: rgb(255, 0, 0);
+}
+
+#texta {
+    font-size: larger;
+    padding: 10px;
+}
